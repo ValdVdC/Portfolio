@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2Z - HUB de Games e Players</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../projects-styles.css">
+    <style>
+    /* 2Z specific styles */
+    .features-list li::before {
+        content: '🎮';
+    }
+
+    .status-badge.online {
+        background: rgba(76, 175, 80, 0.2);
+        color: #4caf50;
+        border: 1px solid rgba(76, 175, 80, 0.3);
+    }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-left">
+                <a href="../../index.html" class="back-btn">
+                    <span>←</span>
+                    <span>Voltar ao Portfólio</span>
+                </a>
+            </div>
+            <div class="logo">2Z</div> <!-- Altere para Lilium na outra página -->
+            <div class="theme-toggle" id="themeToggle">
+                <div class="toggle-ball"></div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>2Z</h1>
+                <p class="subtitle">HUB de Games e Players</p>
+                <p class="description">
+                    O 2Z é uma plataforma inovadora que facilita a descoberta de novos games e busca conectar jogadores. 
+                    Mais do que um simples catálogo, é um hub gamer.
+                </p>
+                <a href="https://front-end-game-hub.vercel.app/" class="visit-btn" target="_blank">
+                    🚀 Visitar Plataforma
+                </a>
+            </div>
+            <div class="platform-preview">
+                <div class="platform-icon">🎮</div>
+                <div class="platform-stats">
+                    <div class="stat">
+                        <div class="stat-number">Angular</div>
+                        <div class="stat-label">Frontend</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">Express</div>
+                        <div class="stat-label">Backend</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">MongoDB</div>
+                        <div class="stat-label">Database</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">Ativo</div>
+                        <div class="stat-label">Status</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section about-platform">
+        <div class="container">
+            <h2 class="section-title">Sobre a Plataforma</h2>
+            <div class="platform-info">
+                <div class="info-text">
+                    <h3>Objetivo do Projeto</h3>
+                    <p>
+                        Criar uma plataforma centralizada onde gamers podem descobrir novos jogos, 
+                        conectar-se com outros players e compartilhar suas experiências de jogo.
+                    </p>
+                    <br>
+                    <h3>Solução Oferecida</h3>
+                    <p>
+                        O 2Z visa resolver a fragmentação da comunidade gamer, oferecendo um espaço 
+                        unificado para interação e descoberta de conteúdo, conectando jogadores ao mundo dos games.
+                    </p>
+                </div>
+                <div class="info-text">
+                    <h3>Funcionalidades Principais</h3>
+                    <ul class="features-list">
+                        <li>Catálogo abrangente de jogos com notas</li>
+                        <li>Sistema de busca em tempo real com barra de pesquisa global</li>
+                        <li>Filtros avançados por gênero, plataforma, entre outros</li>
+                        <li>Organização por plataformas (PlayStation, Xbox, Nintendo, PC, Mobile)</li>
+                        <li>Navegação por categorias de jogos com interface intuitiva</li>
+                    </ul>
+                    <h3>Funcionalidades Futuras</h3>
+                    <ul class="features-list">
+                        <li>Perfis personalizáveis de jogadores</li>
+                        <li>Sistema de recomendações inteligentes</li>
+                        <li>Chat e mensagens entre usuários</li>
+                    </ul>
+                    
+                    <h3 style="margin-top: 2rem;">Stack Tecnológica</h3>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Angular</span>
+                        <span class="tech-tag">Express</span>
+                        <span class="tech-tag">MongoDB</span>
+                        <span class="tech-tag">HTML5</span>
+                        <span class="tech-tag">CSS3</span>
+                        <span class="tech-tag">JavaScript</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section features">
+        <div class="container">
+            <h2 class="section-title">Recursos em Destaque</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <span class="feature-icon">🎮</span>
+                    <h4>Biblioteca de Jogos</h4>
+                    <p>Sistema completo de jogos com avaliações, capas e informações detalhadas organizadas por plataformas</p>
+                </div>
+                <div class="feature-card">
+                    <span class="feature-icon">🔍</span>
+                    <h4>Busca Inteligente</h4>
+                    <p>Algoritmo de pesquisa avançado com filtros múltiplos</p>
+                </div>
+                <div class="feature-card">
+                    <span class="feature-icon">📱</span>
+                    <h4>Interface Responsiva</h4>
+                    <p>Design adaptativo moderno com tema dark, otimizado para desktop e dispositivos móveis</p>
+                </div>
+                <div class="feature-card">
+                    <span class="feature-icon">⚡</span>
+                    <h4>Performance Otimizada</h4>
+                    <p>Carregamento eficiente com lazy loading de imagens e paginação inteligente</p>
+                </div>
+                <div class="feature-card">
+                    <span class="feature-icon">🎯</span>
+                    <h4>Filtros Avançados</h4>
+                    <p>Sistema de filtros combinados por categoria, modo de jogo e classificação</p>
+                </div>
+                <div class="feature-card">
+                    <span class="feature-icon">🔗</span>
+                    <h4>Integração de API</h4>
+                    <p>Consumo dinâmico de dados externos para informações atualizadas dos jogos</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section screenshots">
+        <div class="container">
+            <h2 class="section-title">Capturas de Tela</h2>
+            <div class="screenshots-grid">
+                <div class="screenshot-placeholder screenshot-home">
+                    <div class="screenshot-text">🏠 Tela Principal</div>
+                </div>
+                <div class="screenshot-placeholder screenshot-games">
+                    <div class="screenshot-text">🎮 Jogos do Momento</div>
+                </div>
+                <div class="screenshot-placeholder screenshot-categories">
+                    <div class="screenshot-text">🧩 Categorias</div>
+                </div>
+                <div class="screenshot-placeholder screenshot-platforms">
+                    <div class="screenshot-text">🖥️ Plataformas</div>
+                </div>
+                <div class="screenshot-placeholder screenshot-explorer">
+                    <div class="screenshot-text">🔍 Explorador</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section access">
+        <div class="container">
+            <div class="access-content">
+                <h2 class="section-title">Acesse a Plataforma</h2>
+                <p style="margin-bottom: 2rem; font-size: 1.1rem; opacity: 0.9;">
+                    Experimente o 2Z agora mesmo e descubra uma nova forma de conectar-se com a comunidade gamer!
+                </p>
+
+                <a href="https://front-end-game-hub.vercel.app/" class="access-btn" target="_blank">
+                    🚀 Acessar 2Z
+                </a>
+
+                <div class="status-info">
+                    <div class="status-badge">✅ Online</div>
+                    <h3>Status da Plataforma</h3>
+                    <p style="opacity: 0.8; margin-top: 1rem;">
+                        A plataforma está totalmente funcional e recebendo atualizações regulares. 
+                        Novos recursos são adicionados continuamente baseados no feedback da comunidade.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-links">
+                <a href="../../index.html">Portfólio</a>
+                <a href="../../index.html#contact">Contato</a>
+                <a href="https://github.com/ValdVdC">GitHub</a>
+            </div>
+            <p>&copy; 2025 Osvaldo. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    <script src="script_project-2z.js"></script>
+</body>
+</html>

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Osvaldo - Portfólio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        const savedTheme = localStorage.getItem('theme') || 'light';
+        document.documentElement.setAttribute('data-theme', savedTheme);
+    </script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-left">
+                <div class="logo">Osvaldo</div>
+                <ul class="nav-links">
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#skills">Habilidades</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </div>
+            <div class="theme-toggle" id="themeToggle">
+                <div class="toggle-ball"></div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Olá, eu sou Osvaldo</h1>
+            <p class="subtitle">Desenvolvedor Full Stack</p>
+            <a href="#contact" class="cta-button">Entre em Contato</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title fade-in">Sobre Mim</h2>
+            <div class="about-content fade-in">
+                <div class="about-image">👨‍💻</div>
+                <div class="about-text">
+                    <p>Me chamo Osvaldo Vasconcelos de Carvalho, tenho 19 anos e sou de Recife, Pernambuco.</p>
+                    <br>
+                    <p>Sou um desenvolvedor muito interessado por tecnologia, tenho experiência em desenvolvimento web moderno e desenvolvimento de jogos. Trabalho com diversas tecnologias para criar soluções eficientes e continuar aprendendo cada vez mais.</p>
+                    <br>
+                    <p>Minha história na área de programação começou alguns anos atrás e desde então eu venho me esforçando para aprender novas tecnologias e melhores práticas de desenvolvimento.</p>
+                    <br>
+                    <p>Busco sempre entregar o máximo de qualidade, de forma que faça a diferença na vida das pessoas e seja algo que agregue valor.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title fade-in">Habilidades</h2>
+            <div class="skills-grid">
+                <div class="skill-card fade-in">
+                    <div class="skill-icon">🌐</div>
+                    <h3>Frontend</h3>
+                    <p>HTML, CSS, JavaScript, Angular</p>
+                </div>
+                <div class="skill-card fade-in">
+                    <div class="skill-icon">⚙️</div>
+                    <h3>Backend</h3>
+                    <p>Node.js, Java, C#, Express</p>
+                </div>
+                <div class="skill-card fade-in">
+                    <div class="skill-icon">🗄️</div>
+                    <h3>Banco de Dados</h3>
+                    <p>MySQL, MongoDB</p>
+                </div>
+                <div class="skill-card fade-in">
+                    <div class="skill-icon">🔧</div>
+                    <h3>Ferramentas & Plataformas</h3>
+                    <p>Git, Unity, VS Code</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title fade-in">Projetos</h2>
+            <div class="projects-grid">
+                <div class="project-card fade-in">
+                    <div class="project-image">🎮</div>
+                    <div class="project-content">
+                        <h3 class="project-title">2Z</h3>
+                        <p class="project-description">Plataforma web responsiva que oferece catálogo de jogos com múltiplos filtros para descoberta.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Angular</span>
+                            <span class="tech-tag">Express</span>
+                            <!-- <span class="tech-tag">MongoDB</span> -->
+                        </div>
+                        <div class="project-buttons">
+                            <a href="https://front-end-game-hub.vercel.app/" target="_blank" class="btn-primary">
+                                Ver Projeto
+                            </a>
+                            <a href="projects/project_2Z/project-2z.html" class="btn-secondary">
+                                Saber Mais
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card fade-in">
+                    <div class="project-image">🏛️</div>
+                    <div class="project-content">
+                        <h3 class="project-title">Lilium</h3>
+                        <p class="project-description">Jogo de suspense e puzzle desenvolvido em Unity, ambientado em um museu.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">C#</span>
+                            <span class="tech-tag">Unity</span>
+                        </div>
+                        <div class="project-buttons">
+                            <a href="projects/project_lilium/project-lilium.html" class="btn-secondary">
+                                Saber Mais
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="project-card fade-in">
+                    <div class="project-image">📊</div>
+                    <div class="project-content">
+                        <h3 class="project-title">Dashboard Analytics</h3>
+                        <p class="project-description">Dashboard interativo para análise de dados com gráficos dinâmicos e relatórios personalizados.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">D3.js</span>
+                            <span class="tech-tag">Python</span>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <h2 class="section-title fade-in">Entre em Contato</h2>
+                <p class="fade-in">Vamos trabalhar juntos! Entre em contato para discutir seu próximo projeto.</p>
+                <form class="contact-form fade-in" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+                    <input type="hidden" name="bot-field">
+                    
+                    <div class="form-group">
+                        <input type="text" name="nome" placeholder="Seu Nome" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Seu Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="mensagem" rows="5" placeholder="Sua Mensagem" required style="resize: none;"></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Enviar Mensagem</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <h2 class="section-title fade-in">Links</h2>
+            <div class="social-links">
+                <a href="https://linkedin.com/in/osvaldo-vasconcelos/" title="LinkedIn"><img src="images/Linkedin_Logo.png" width="48" height="48"></a>
+                <a href="https://github.com/ValdVdC" title="GitHub"><img src="images/GitHub_Logo.png" width="28" height="28"></a>
+                <a href="mailto:osvaldodecarvalho2005@outlook.com" title="Email"><img src="images/Mail_Logo.png" width="28" height="28"></a>
+                <a href="https://www.instagram.com/osvaldovdc/" title="Instagram"><img src="images/Instagram_Logo.png" width="24" height="24"></a>
+            </div>
+            <p>&copy; 2025 Osvaldo. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

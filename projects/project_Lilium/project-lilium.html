@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lilium - Suspense & Puzzle Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../projects-styles.css">
+    <style>
+    /* Lilium specific styles */
+    .features-list li::before {
+        content: '🎯';
+    }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-left">
+                <a href="../../index.html" class="back-btn">
+                    <span>←</span>
+                    <span>Voltar ao Portfólio</span>
+                </a>
+            </div>
+            <div class="logo">Lilium</div> 
+            <div class="theme-toggle" id="themeToggle">
+                <div class="toggle-ball"></div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Lilium</h1>
+                <p class="subtitle">Suspense & Puzzle Game</p>
+                <p class="description">
+                    Explore os mistérios de um museu sombrio em Lilium, um jogo de suspense e puzzle que desafia sua mente enquanto mergulha em uma atmosfera envolvente e cheia de segredos.
+                </p>
+            </div>
+            <div class="game-preview">
+                <div class="game-icon">🏛️</div>
+                <div class="game-stats">
+                    <div class="stat">
+                        <div class="stat-number">Unity</div>
+                        <div class="stat-label">Engine</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">C#</div>
+                        <div class="stat-label">Linguagem</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">90%</div>
+                        <div class="stat-label">Progresso</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">2025</div>
+                        <div class="stat-label">Lançamento</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section about-game">
+        <div class="container">
+            <h2 class="section-title">Sobre o Jogo</h2>
+            <div class="game-info">
+                <div class="info-text">
+                    <h3>História</h3>
+                    <p>
+                        Lilium se passa em um museu medieval e misterioso, onde cada sala esconde segredos. 
+                        Como protagonista, você deve desvendar os enigmas para buscar uma saída desse lugar enigmático. 
+                    </p>
+                    <br>
+                    <h3>Gameplay</h3>
+                    <p>
+                        Combine elementos de suspense com puzzles desafiadores. Cada quebra-cabeça 
+                        resolvido revela mais o caminho para a saída.
+                    </p>
+                </div>
+                <div class="info-text">
+                    <h3>Características Principais</h3>
+                    <ul class="features-list">
+                        <li>Atmosfera imersiva e envolvente</li>
+                        <li>Puzzles únicos e desafiadores</li>
+                        <li>Narrativa rica em mistérios</li>
+                        <li>Ambientação detalhada de museu</li>
+                    </ul>
+                    
+                    <h3 style="margin-top: 2rem;">Stack Tecnológica</h3>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Unity</span>
+                        <span class="tech-tag">C#</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section trailer">
+        <div class="container">
+            <h2 class="section-title">Trailer</h2>
+            <div class="trailer-container">
+                <div class="video-placeholder">
+                    <video 
+                        controls 
+                        poster=""
+                        preload="metadata"
+                        style="width: 100%; height: 100%; object-fit: cover; border-radius: 20px;">
+                        <source src="../../videos/IntroCutscene(SemCréditos).mp4" type="video/mp4">
+                        <p style="color: var(--text-light); text-align: center; padding: 2rem;">
+                            Seu navegador não suporta a reprodução de vídeo. 
+                            <a href="../../videos/IntroCutscene(SemCréditos).mp4" download style="color: var(--primary-color);">
+                                Baixe o trailer aqui
+                            </a>
+                        </p>
+                    </video>
+                </div>
+                <p style="color: var(--text-light); font-style: italic; margin-top: 1rem; text-align: center;">
+                    Trailer oficial em alta qualidade
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section download">
+        <div class="container">
+            <div class="download-content">
+                <h2 class="section-title">Download</h2>
+                <p style="margin-bottom: 2rem; font-size: 1.1rem; opacity: 0.9;">
+                    Lilium estará disponível para múltiplas plataformas. Acompanhe o desenvolvimento!
+                </p>
+
+                <div class="development-progress">
+                    <div class="progress-info">
+                        <h3>Progresso do Desenvolvimento</h3>
+                        <span style="font-weight: 600;">90%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill"></div>
+                    </div>
+                    <p style="margin-top: 1rem; opacity: 0.8;">
+                        Últimas atualizações: Melhoria dos inimigos, tela de fim mais detalhada.
+                    </p>
+                </div>
+
+                <div class="download-options">
+                    <div class="download-card">
+                        <div class="platform-icon">🖥️</div>
+                        <h3>Windows</h3>
+                        <p>PC / Steam</p>
+                        <a href="#" class="download-btn">Em Desenvolvimento</a>
+                        <div class="status-badge">Em Breve</div>
+                    </div>
+                    <!-- <div class="download-card">
+                        <div class="platform-icon">🍎</div>
+                        <h3>macOS</h3>
+                        <p>Mac / App Store</p>
+                        <a href="#" class="download-btn">Em Desenvolvimento</a>
+                        <div class="status-badge">Em Breve</div>
+                    </div>
+                    <div class="download-card">
+                        <div class="platform-icon">🐧</div>
+                        <h3>Linux</h3>
+                        <p>Ubuntu / SteamOS</p>
+                        <a href="#" class="download-btn">Em Desenvolvimento</a>
+                        <div class="status-badge">Em Breve</div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-links">
+                <a href="../../index.html">Portfólio</a>
+                <a href="../../index.html#contact">Contato</a>
+                <a href="https://github.com/ValdVdC">GitHub</a>
+            </div>
+            <p>&copy; 2025 Osvaldo. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    <script src="script_project-lilium.js"></script>
+</body>
+</html>
