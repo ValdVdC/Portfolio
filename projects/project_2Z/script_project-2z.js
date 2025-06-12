@@ -42,14 +42,6 @@
             initScrollAnimations();
         });
 
-        // Adiciona efeito parallax sutil ao hero
-        window.addEventListener('scroll', () => {
-            const scrolled = window.pageYOffset;
-            const hero = document.querySelector('.hero');
-            if (hero) {
-                hero.style.transform = `translateY(${scrolled * 0.5}px)`;
-            }
-        });
         document.addEventListener('DOMContentLoaded', function() {
             initThemeToggle();
             initScrollAnimations();
