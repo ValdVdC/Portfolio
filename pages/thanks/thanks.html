@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obrigado - Osvaldo Portfólio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="thanks.css">
+    <script>
+        const savedTheme = localStorage.getItem('theme') || 'light';
+        document.documentElement.setAttribute('data-theme', savedTheme);
+    </script>
+</head>
+<body>
+    <div class="particles">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
+
+    <header>
+        <nav>
+            <div class="nav-left">
+                <a href="index.html" class="logo">Osvaldo</a>
+            </div>
+            <div class="theme-toggle" id="themeToggle">
+                <div class="toggle-ball"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="thank-you-container">
+            <div class="success-icon">✓</div>
+            
+            <h1 class="thank-you-title">Obrigado!</h1>
+            
+            <p class="thank-you-message">
+                Sua mensagem foi enviada com sucesso! Muito obrigado por entrar em contato comigo. 
+                Estou ansioso para conhecer mais sobre seu projeto e como posso ajudá-lo.
+            </p>
+
+            <div class="response-info">
+                <h3>📧 Próximos Passos</h3>
+                <p>
+                    Responderei sua mensagem o mais rápido possível. Fique atento ao seu email, 
+                    incluindo a caixa de spam, para não perder minha resposta.
+                </p>
+            </div>
+
+            <div class="action-buttons">
+                <a href="index.html" class="btn btn-primary">Voltar ao Portfólio</a>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        // Inicializa o toggle de tema
+        document.addEventListener('DOMContentLoaded', function() {
+            const themeToggle = document.getElementById('themeToggle');
+            
+            themeToggle.addEventListener('click', () => {
+                const currentTheme = document.documentElement.getAttribute('data-theme');
+                const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+                
+                document.documentElement.setAttribute('data-theme', newTheme);
+                localStorage.setItem('theme', newTheme);
+            });
+        });
+    </script>
+</body>
+</html>
