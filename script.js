@@ -112,9 +112,7 @@
             
             if (contactForm) {
                 contactForm.addEventListener('submit', function(e) {
-                    // Para formulários Netlify, não impedimos o submit padrão
-                    // O Netlify vai processar automaticamente
-                    
+
                     const nome = this.querySelector('input[name="nome"]').value;
                     const email = this.querySelector('input[name="email"]').value;
                     const mensagem = this.querySelector('textarea[name="mensagem"]').value;
