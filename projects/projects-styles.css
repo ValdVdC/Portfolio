@@ -624,24 +624,47 @@ body {
 }
 
 /* Classes específicas para cada screenshot com imagens de exemplo */
-.screenshot-home {
+
+/* Screenshots do projeto 2Z */
+.screenshot-2z-home {
     background-image: url('project_2Z/images/Home.png');
 }
 
-.screenshot-games {
+.screenshot-2z-games {
     background-image: url('project_2Z/images/Games.png');
 }
 
-.screenshot-categories {
+.screenshot-2z-categories {
     background-image: url('project_2Z/images/Categories.png');
 }
 
-.screenshot-platforms {
+.screenshot-2z-platforms {
     background-image: url('project_2Z/images/Platforms.png');
 }
 
 .screenshot-explorer {
     background-image: url('project_2Z/images/Explorer.png');
+}
+
+/* Screenshots do projeto 2ZWatch */
+.screenshot-2zwatch-home {
+    background-image: url('project_2ZWatch/images/Home.png');
+}
+
+.screenshot-2zwatch-explorer {
+    background-image: url('project_2ZWatch/images/Explorer.png');
+}
+
+.screenshot-2zwatch-films {
+    background-image: url('project_2ZWatch/images/Filmes.png');
+}
+
+.screenshot-2zwatch-series {
+    background-image: url('project_2ZWatch/images/Series.png');
+}
+
+.screenshot-2zwatch-profile {
+    background-image: url('project_2ZWatch/images/Profile.png');
 }
 
 /* Animação de zoom sutil */
